@@ -1,4 +1,4 @@
-import './Hauling.css';
+import './hauling.css';
 import Footer from '../footer/Footer';
 import React, { useState } from "react";
 
