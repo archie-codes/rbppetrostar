@@ -1,8 +1,6 @@
-import React from "react";
 import CountUp from "react-countup";
 import "./OverviewCounter.css";
 import { BsFillFuelPumpDieselFill } from "react-icons/bs";
-import { ArrowBigUp } from 'lucide-react';
 
 function OverviewCounter() {
     return (
