@@ -1,0 +1,29 @@
+@media(max-width: 1530px) {
+    .fuelPump {
+        display: none;
+    }
+}
+
+.fuelPump {
+    animation: float 3s ease-in-out infinite;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 1;
+    translate: -10% -100%;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(30px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+

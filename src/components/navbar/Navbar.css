@@ -1,0 +1,121 @@
+.slanted {
+    border-bottom: 5px solid blue;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+
+@media (min-width: 1285px) {
+    .slanted:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25%;
+        height: 85%;
+        background: white;
+        -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        -webkit-transform: skew(-45deg);
+        -ms-transform: skew(-45deg);
+        transform: skew(-45deg);
+        z-index: -1;
+
+    }
+
+    .slantedTwo:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25.5%;
+        height: 92%;
+        background: red;
+        -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        -webkit-transform: skew(-45deg);
+        -ms-transform: skew(-45deg);
+        transform: skew(-45deg);
+        z-index: -1;
+    }
+
+    .slantedThree:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 26%;
+        height: 98%;
+        background: white;
+        -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        -webkit-transform: skew(-45deg);
+        -ms-transform: skew(-45deg);
+        transform: skew(-45deg);
+        z-index: -1;
+    }
+}
+
+/* @media (max-width: 412px) {
+    .slanted:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 85%;
+        background: white;
+        -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        -webkit-transform: skew(-45deg);
+        -ms-transform: skew(-45deg);
+        transform: skew(-45deg);
+        z-index: -1;
+
+    }
+
+    .slantedTwo:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 71.5%;
+        height: 92%;
+        background: red;
+        -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        -webkit-transform: skew(-45deg);
+        -ms-transform: skew(-45deg);
+        transform: skew(-45deg);
+        z-index: -1;
+    }
+
+    .slantedThree:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 72.5%;
+        height: 98%;
+        background: white;
+        -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        -webkit-transform: skew(-45deg);
+        -ms-transform: skew(-45deg);
+        transform: skew(-45deg);
+        z-index: -1;
+    }
+} */
+

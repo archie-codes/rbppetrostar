@@ -1,0 +1,35 @@
+.box {
+    padding: 15px;   
+    color: #ecf0f7;
+    background: white;
+    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.20s ease-in, text-shadow 0.1s ease-in;
+    will-change: transform;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    border-radius: 3px;
+    box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.02), 0 8px 20px -2px rgba(0, 0, 0, 0.06), 0 6px 10px -6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.1s ease-in;
+    will-change: opacity;
+    opacity: 0;
+}
+
+.box:hover {
+    transform: translate(0, -10px);
+    transform: translate3d(0, -10px, 0);
+}
+
+.box:hover:before {
+    opacity: 1;
+}

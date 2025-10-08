@@ -1,0 +1,23 @@
+# React Router support with static file exclusions
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ✅ Don’t rewrite requests for static files
+  RewriteCond %{REQUEST_URI} \.(?:pdf|jpg|jpeg|png|gif|webp|css|js|ico|svg|woff2?)$ [NC]
+  RewriteRule ^ - [L]
+
+  # ✅ Don’t rewrite if file or directory exists
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # ✅ Everything else goes to index.html
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# ✅ Force brochure.pdf to download with a custom filename
+<Files "brochure.pdf">
+  ForceType application/octet-stream
+  Header set Content-Disposition "attachment; filename=RBP-Brochure.pdf"
+</Files>
