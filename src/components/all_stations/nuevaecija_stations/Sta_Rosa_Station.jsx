@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from '../../footer/Footer'
-import './NuevaEcija_Stations.css'
+import './Nuevaecija_Stations.css'
 import CountUp from "react-countup";
 import { BsFillFuelPumpDieselFill } from "react-icons/bs";
 import Slider from "react-slick";
