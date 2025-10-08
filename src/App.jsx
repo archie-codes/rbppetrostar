@@ -28,7 +28,7 @@ import SanMatias_Station from "./components/all_stations/pampanga_stations/SanMa
 import TuboTuboReliefOperations from "./components/newsSection/TuboTuboReliefOperations";
 
 import BataanStationList from "./components/all_stations/BataanStationList";
-import Orani_Station from "./components/all_stations/bataan_stations/orani_station";
+import Orani_Station from "./components/all_stations/bataan_stations/Orani_Station";
 import Dinalupihan_Station from "./components/all_stations/bataan_stations/Dinalupihan_Station";
 
 import NuevaEcijaStationList from "./components/all_stations/NuevaEcijaStationList";
