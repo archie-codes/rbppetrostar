@@ -90,7 +90,9 @@ const AboutUs = () => {
                 <p className="mt-6 text-xl/8 text-gray-700 text-justify">
                   To provide access to affordable petroleum products, RBP Petrostar strives to continuously establish more branches across Central and Northern Luzon.
                 </p>
-                <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-600">Mission</h2>
+                <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-600">
+                  Mission
+                </h2>
                 <p className="mt-6 text-justify">
                   The fuel that drives you to your dreams. To be a petroleum service provider for everyone in the state. To fuel with purpose.
                 </p>
@@ -98,16 +100,6 @@ const AboutUs = () => {
                 <p className="mt-6 text-justify">
                   To be of petroleum service in the region of Pampanga. To be the leading local petroleum brand / company provider in Pampanga / Central Luzon.
                 </p>
-                {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-red-600">RBP Core Values</h2>
-                <p className="mt-6 text-justify">
-                  <strong className="mt-6">R - Reliable:</strong> We deliver on our promises and provide consistent, reliable service to our customers.
-                </p>
-                <p className="mt-6 text-justify">
-                  <strong className="mt-6">B - Better:</strong> We strive to improve our products, services, and operations continuously, aiming to be better today than we were yesterday.
-                </p>
-                <p className="mt-6 text-justify">
-                  <strong className="mt-6">P - Pioneering:</strong> We embrace innovation, taking bold steps to pioneer new energy solutions, products, and services that benefit our customers and the environment.
-                </p> */}
               </div>
             </div>
           </div>
