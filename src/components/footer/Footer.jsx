@@ -122,7 +122,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="text-sm text-gray-500">&copy; 2025. RBP Petrostar Inc. All rights reserved.</p>
+        <p className="text-sm text-gray-500 text-center">&copy; 2025. RBP Petrostar Inc. All rights reserved.</p>
       </div>
     </footer>
   )

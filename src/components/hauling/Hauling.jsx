@@ -493,7 +493,7 @@ export default function HaulingPage() {
                         </div>
 
                         <div className="space-y-4">
-                            <div className="text-5xl font-bold text-red-600">10+</div>
+                            <div className="text-5xl font-bold text-red-600">21+</div>
                             <h3 className="text-xl font-semibold text-gray-900">
                                 Years Experience
                             </h3>
