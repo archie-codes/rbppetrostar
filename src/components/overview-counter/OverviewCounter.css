@@ -10,6 +10,19 @@
     border-radius: 10px;
 }
 
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .box {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .box {
+        padding: 14px;
+    }
+}
+
 .box:before {
     content: "";
     position: absolute;
