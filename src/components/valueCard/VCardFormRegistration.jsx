@@ -36,7 +36,6 @@ const VCardFormRegistration = () => {
     // end of web3forms
 
     // For Cellphone Number Validation
-
     const [mobileNumber, setMobileNumber] = useState('');
     const [message, setMessage] = useState('');
 

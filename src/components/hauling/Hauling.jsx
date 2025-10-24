@@ -380,7 +380,7 @@ export default function HaulingPage() {
                             <div className="flex flex-col sm:flex-row gap-4 pt-4">
                                 <a
                                     href="/ContactUs"
-                                    className="bg-red-600 text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-red-700 transition"
+                                    className="bg-red-600 text-white text-center px-8 py-3 rounded-lg text-base font-semibold hover:bg-red-700 transition"
                                 >
                                     Contact Us
                                 </a>
