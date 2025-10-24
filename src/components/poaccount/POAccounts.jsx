@@ -1,12 +1,12 @@
 import Footer from "../footer/Footer";
-import { 
-    FaRegFileAlt, 
-    FaTruckMoving, 
-    FaChartLine, 
-    FaGasPump, 
-    FaShieldAlt, 
-    FaClock, 
-    FaUsers, 
+import {
+    FaRegFileAlt,
+    FaTruckMoving,
+    FaChartLine,
+    FaGasPump,
+    FaShieldAlt,
+    FaClock,
+    FaUsers,
     FaCheckCircle,
     FaArrowRight,
     FaStar,
@@ -22,7 +22,7 @@ const POAccounts = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-red-50 via-white to-red-100"></div>
                 <div className="absolute top-20 left-10 w-32 h-32 bg-red-200/30 rounded-full blur-xl"></div>
                 <div className="absolute bottom-20 right-10 w-40 h-40 bg-red-300/20 rounded-full blur-xl"></div>
-                
+
                 <div className="relative z-10 max-w-6xl mx-auto px-6 py-20">
                     <div className="text-center mb-16">
                         {/* Main Title */}
@@ -34,13 +34,13 @@ const POAccounts = () => {
                                 Purchase Order Accounts
                             </div>
                         </div>
-                        
+
                         {/* Hero Description */}
                         <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-12">
-                            Streamline your fuel procurement with our comprehensive <strong className="text-red-600">Purchase Order system</strong>. 
+                            Streamline your fuel procurement with our comprehensive <strong className="text-red-600">Purchase Order system</strong>.
                             Enjoy flexible billing, reliable delivery, and seamless transactions for your business needs.
                         </p>
-                        
+
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                             <a
@@ -121,7 +121,7 @@ const POAccounts = () => {
                                     Program Overview
                                 </h2>
                                 <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                                    Our PO Account program is designed to support companies with continuous fuel needs. 
+                                    Our PO Account program is designed to support companies with continuous fuel needs.
                                     Registered clients can issue purchase orders for fuel, and we'll deliver or dispense according to agreed terms.
                                     Each transaction is properly documented for transparency and easy reconciliation.
                                 </p>
@@ -178,7 +178,7 @@ const POAccounts = () => {
                         <h2 className="text-4xl font-bold text-gray-800 mb-6">What Our Clients Say</h2>
                         <p className="text-xl text-gray-600">Trusted by businesses across the region</p>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300">
                             <div className="flex items-center gap-1 mb-4">
@@ -193,7 +193,7 @@ const POAccounts = () => {
                             <div className="font-semibold text-gray-800">Sarah Johnson</div>
                             <div className="text-gray-600 text-sm">Logistics Manager, ABC Corp</div>
                         </div>
-                        
+
                         <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300">
                             <div className="flex items-center gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
@@ -207,7 +207,7 @@ const POAccounts = () => {
                             <div className="font-semibold text-gray-800">Michael Chen</div>
                             <div className="text-gray-600 text-sm">Operations Director, XYZ Ltd</div>
                         </div>
-                        
+
                         <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300">
                             <div className="flex items-center gap-1 mb-4">
                                 {[...Array(5)].map((_, i) => (
@@ -216,7 +216,7 @@ const POAccounts = () => {
                             </div>
                             <FaQuoteLeft className="text-red-600 text-2xl mb-4" />
                             <p className="text-gray-700 mb-6 italic">
-                                "The priority service and flexible payment terms have been a game-changer for our business operations."
+                                "The priority service and flexible payment terms have been a game-changer for our business operations. I highly recommend RBP Petrostar Fuels"
                             </p>
                             <div className="font-semibold text-gray-800">Emily Rodriguez</div>
                             <div className="text-gray-600 text-sm">Fleet Manager, DEF Industries</div>
