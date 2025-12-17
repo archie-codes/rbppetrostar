@@ -9,7 +9,7 @@ function OverviewCounter() {
                 {/* Box 1 */}
                 <div className="box flex flex-col items-center justify-center py-3 bg-white shadow-lg">
                     <h1 className="text-xs font-bold text-black/80 sm:text-xs md:text-md lg:text-2xl">FUEL PRICE UPDATE</h1>
-                    <p className="font-bold text-black/70 sm:text-md text-xs md:text-lg">As of October 7, 2025</p>
+                    <p className="font-bold text-black/70 sm:text-md text-xs md:text-lg">As of December 16, 2025</p>
                 </div>
                 {/* Diesel */}
                 <div className="box grid grid-cols-2 items-center justify-center shadow-lg">
@@ -22,7 +22,7 @@ function OverviewCounter() {
                         </h1>
                     </div>
                     <div className="">
-                        <p className="flex items-center font-semibold text-black/70 sm:text-xs md:text-2xl">₱ 0.<CountUp start={100} end={80} suffix=" ⇧" duration={2.75} /></p>
+                        <p className="flex items-center font-semibold text-black/70 sm:text-xs md:text-2xl">₱ 0.<CountUp start={100} end={20} suffix=" ⇩" duration={2.75} /></p>
                     </div>
                 </div>
                 {/* Unleaded */}

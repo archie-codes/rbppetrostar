@@ -20,14 +20,6 @@ const jobList = [
     //         "Handling administrative tasks, assisting with recruitment, employee onboarding, record-keeping, and helping ensure compliance with company policies and labor laws. This role supports the HR team in various functions, including employee relations, benefits administration, and performance management.",
     // },
     // {
-    //     id: 3,
-    //     title: "Station Manager",
-    //     location: "Pampanga",
-    //     type: "Full-Time",
-    //     description:
-    //         "Oversee the day-to-day operations of the station, ensure smooth service delivery, manage staff, and meet sales and operational goals. This role involves coordinating with various departments, maintaining high service standards, and ensuring compliance with company policies and safety regulations.",
-    // },
-    // {
     //     id: 4,
     //     title: "Inhouse Architect",
     //     location: "Pampanga",
@@ -61,11 +53,11 @@ const jobList = [
     // },
     {
         id: 1,
-        title: "Tanker Driver",
-        location: "Calululut, CSFP",
+        title: "Company Driver",
+        location: "Calululut, CSFP and Manila",
         type: "Full-Time",
         description:
-            "To operate and drive fuel tankers to transport petroleum products safely and efficiently. This role involves adhering to safety regulations, maintaining the integrity of the fuel during transit, and ensuring timely deliveries to various locations. The Tanker Driver is responsible for conducting pre-trip inspections, managing fuel loading and unloading processes, and maintaining accurate records of deliveries while providing excellent customer service.",
+            "To operate and drive company vehicles for various purposes, such as transporting employees or equipment. This role involves ensuring the safe and efficient operation of the vehicle, adhering to traffic laws and company policies, and maintaining the vehicle in good condition. The Company Driver is responsible for planning routes, managing schedules, and providing excellent customer service while representing the company professionally.",
     },
     // {
     //     id: 2,
@@ -75,30 +67,46 @@ const jobList = [
     //     description:
     //         "To operate and drive company vehicles for various purposes, such as transporting employees or equipment. This role involves ensuring the safe and efficient operation of the vehicle, adhering to traffic laws and company policies, and maintaining the vehicle in good condition. The Company Driver is responsible for planning routes, managing schedules, and providing excellent customer service while representing the company professionally.",
     // },
+    // {
+    //     id: 2,
+    //     title: "Pump Attendant",
+    //     location: "Sindalan, CSFP",
+    //     type: "Full-Time",
+    //     description:
+    //         "To provide excellent customer service at fuel stations by assisting customers with fueling their vehicles, operating fuel pumps, and ensuring a clean and safe environment. This role involves handling cash transactions, maintaining fuel inventory, and adhering to safety protocols while delivering a positive experience for customers. The Pump Attendant plays a crucial role in representing the company and ensuring customer satisfaction.",
+    // },
+    // {
+    //     id: 3,
+    //     title: "Machinery Staff",
+    //     location: "Calululut, CSFP",
+    //     type: "Full-Time",
+    //     description:
+    //         "To operate, maintain, and repair machinery and equipment used in various industrial or construction settings. This role involves ensuring that machinery is functioning efficiently and safely, performing routine inspections, troubleshooting issues, and conducting necessary repairs. The Machinery Staff plays a crucial role in minimizing downtime, enhancing productivity, and ensuring the safety of operations by adhering to maintenance schedules and safety protocols.",
+    // },
+    // {
+    //     id: 4,
+    //     title: "Station Manager",
+    //     location: "Orani, Bataan",
+    //     type: "Full-Time",
+    //     description:
+    //         "Oversee the day-to-day operations of the station, ensure smooth service delivery, manage staff, and meet sales and operational goals. This role involves coordinating with various departments, maintaining high service standards, and ensuring compliance with company policies and safety regulations.",
+    // },
     {
         id: 2,
-        title: "Pump Attendant",
-        location: "Sindalan, CSFP",
-        type: "Full-Time",
-        description:
-            "To provide excellent customer service at fuel stations by assisting customers with fueling their vehicles, operating fuel pumps, and ensuring a clean and safe environment. This role involves handling cash transactions, maintaining fuel inventory, and adhering to safety protocols while delivering a positive experience for customers. The Pump Attendant plays a crucial role in representing the company and ensuring customer satisfaction.",
-    },
-    {
-        id: 3,
         title: "Cashier",
-        location: "Sindalan  & Panipuan Pampanga",
+        location: "City of San Fernando, Pampanga",
         type: "Full-Time",
         description:
             "To manage cash transactions, process customer payments, and provide excellent service at the fuel station. This role involves handling cash, credit, and debit transactions accurately, maintaining a balanced cash register, and assisting customers with inquiries or concerns. The Cashier plays a vital role in ensuring a smooth and efficient checkout process while representing the company professionally.",
     },
     {
-        id: 4,
-        title: "Machinery Staff",
-        location: "Calululut, CSFP",
+        id: 3,
+        title: "Forecourt Crew",
+        location: "City of San Fernando, Pampanga",
         type: "Full-Time",
         description:
-            "To operate, maintain, and repair machinery and equipment used in various industrial or construction settings. This role involves ensuring that machinery is functioning efficiently and safely, performing routine inspections, troubleshooting issues, and conducting necessary repairs. The Machinery Staff plays a crucial role in minimizing downtime, enhancing productivity, and ensuring the safety of operations by adhering to maintenance schedules and safety protocols.",
-    },
+            "To provide exceptional customer service at the fuel station by assisting customers with fueling their vehicles, maintaining cleanliness in the forecourt area, and ensuring a safe and efficient operation. This role involves operating fuel pumps, handling cash transactions, and addressing customer inquiries while adhering to safety protocols and company standards. The Forecourt Crew plays a crucial role in creating a positive customer experience and representing the company professionally.",
+    }
     // {
     //     id: 12,
     //     title: "Admin Staff",

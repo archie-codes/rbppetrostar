@@ -119,7 +119,7 @@ const Navbar = () => {
                                 </CustomLink>
                             </li>
                             <li>
-                                <a href="https://rbpfuels.com"
+                                <a href="https://hr.rbppetrostar.com"
                                     className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left"
                                     target="_blank"
                                     rel="noopener noreferrer"
