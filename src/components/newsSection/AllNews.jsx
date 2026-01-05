@@ -156,6 +156,47 @@ const AllNews = () => {
                 <div className="mb-10 h-full w-full flex">
                     <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5">
                         
+                        {/* Team Building */}
+                        <div
+                            className="group relative cursor-pointer overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-gray-900/5 transform transition-all duration-200 hover:scale-105 hover:-translate-y-1">
+                            <span className="absolute top-2 left-2 z-0 h-14 w-14 rounded-full bg-red-500 transition-all duration-300 group-hover:scale-[13]">
+                            </span>
+                            <span className="absolute grid top-2 left-2 h-14 w-14 place-items-center rounded-full bg-red-500 transition-all duration-300 group-hover:bg-red-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8 text-white transition-all">
+                                    <path fillRule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 0 0 3 3h15a3 3 0 0 1-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125ZM12 9.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5H12Zm-.75-2.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75ZM6 12.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5H6Zm-.75 3.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75ZM6 6.75a.75.75 0 0 0-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75v-3A.75.75 0 0 0 9 6.75H6Z" clipRule="evenodd" />
+                                    <path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 0 1-3 0V6.75Z" />
+                                </svg>
+                            </span>
+                            <div>
+                                <div className="relative p-2 flex justify-center">
+                                    <a href="/TeamBuildingBatangas">
+                                        <img classNames="rounded-md shadow-lg"
+                                            src="/team_building 2/tb (19).jpg"
+                                            loading="lazy" />
+                                    </a>
+                                </div>
+
+                                <div className="relative px-4 pb-3">
+                                    <div className="leading-7 transition-all group-hover:text-white/90 ">
+                                        <a href="/TeamBuildingBatangas">
+                                            <h5
+                                                className="text-xl font-semibold tracking-tight text-gray-900 transition-all duration-300 group-hover:text-white">
+                                                RBP Team Building
+                                            </h5>
+                                            <p>October 11, 2025</p>
+                                        </a>
+
+                                        <a href="/TeamBuildingBatangas" className="antialiased text-gray-600 text-sm break-all transition-all duration-300 group-hover:text-white">
+                                            View News
+                                            {/* &rarr; */}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
                         {/* Disaster Relief Operations Payangan */}
                         <div
                             className="group relative cursor-pointer overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-gray-900/5 transform transition-all duration-200 hover:scale-105 hover:-translate-y-1">

@@ -11,6 +11,7 @@ import ArenasNews from "./components/newsSection/ArenasNews";
 import OutreachProgram from "./components/newsSection/OutreachProgram";
 import OutreachProgram2 from "./components/newsSection/OutreachProgram2";
 import TeamBuilding from "./components/newsSection/TeamBuilding";
+import TeamBuildingBatangas from "./components/newsSection/TeamBuildingBatangas";
 import AllNews from "./components/newsSection/AllNews";
 import StoTomasReliefOperation from "./components/newsSection/StoTomasReliefOperation";
 import DaangBatoReliefOperation from "./components/newsSection/DaangBatoReliefOperation";
@@ -85,6 +86,7 @@ function App() {
             <Route path="/OutreachProgram" element={<OutreachProgram />} />
             <Route path="/OutreachProgram2" element={<OutreachProgram2 />} />
             <Route path="/TeamBuilding" element={<TeamBuilding />} />
+            <Route path="/TeamBuildingBatangas" element={<TeamBuildingBatangas />} />
             {/* Pampanga */}
             <Route path="/PampangaStationList" element={<PampangaStationList />} />
             <Route path="/Arenas_Station" element={<Arenas_Station />} />
