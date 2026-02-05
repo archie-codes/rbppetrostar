@@ -154,45 +154,47 @@ import "./CareerList.css";
 const jobList = [
     {
         id: 1,
-        title: "Company Driver",
-        location: "Calululut, CSFP and Manila",
+        title: "Human Resources Officer",
+        location: "City of San Fernando, Pampanga",
         type: "Full-Time",
-        description: "We are looking for a reliable Company Driver to operate vehicles for transporting employees and equipment safely and efficiently.",
+        description: "Manage HR functions including recruitment, employee relations, and compliance with labor laws to support our workforce effectively.",
         responsibilities: [
-            "Transport employees and equipment to designated locations safely and on time.",
-            "Perform regular vehicle inspections and maintenance checks (oil, tires, water, brakes).",
-            "Plan routes to ensure the most efficient travel times.",
-            "Maintain a clean and professional appearance of the company vehicle.",
-            "Adhere to all traffic laws and company transport policies."
+            "Recruit and hire qualified candidates.",
+            "Manage employee onboarding and offboarding processes.",
+            "Ensure compliance with labor laws and company policies.",
+            "Handle employee inquiries and resolve workplace issues.",
+            "Coordinate with department heads to support workforce needs."
         ],
         qualifications: [
-            "Valid Professional Driver’s License (restriction codes 1, 2, or 3).",
-            "At least 2 years of driving experience in a professional setting.",
-            "Clean driving record with no history of major accidents.",
-            "Familiarity with Waze/Google Maps and routes in Pampanga and Manila.",
-            "High School Diploma or equivalent."
+            "With min. of 2 yrs experience in Human Resources Payroll, Compensation & Benefits.",
+            "MS Office literate.",
+            "Attention to detail and strong organizational skills.",
+            "High Communication Skill, specially in English (both verbal & written).",
+            "Knowledgeable of the Phil. Labor code and DOLE.",
+            "Computer Literate (software user is a plus but not required.)"
         ]
+
     },
     {
         id: 2,
-        title: "Cashier",
+        title: "Human Resources Associate",
         location: "City of San Fernando, Pampanga",
         type: "Full-Time",
-        description: "We are seeking a trustworthy and detail-oriented Cashier to manage transactions and provide excellent customer service at our station.",
+        description: "Assist in HR operations including recruitment, employee records management, and supporting HR initiatives to enhance employee experience.",
         responsibilities: [
-            "Process cash, credit, and debit transactions accurately.",
-            "Maintain a balanced cash register at the start and end of shifts.",
-            "Issue receipts, refunds, and change to customers.",
-            "Resolve customer complaints or inquiries in a professional manner.",
-            "Generate daily transaction reports for management."
+            "Support recruitment and hiring processes.",
+            "Maintain accurate employee records and documentation.",
+            "Assist in organizing training and development programs.",
+            "Help ensure compliance with labor laws and company policies.",
+            "Provide support to employees regarding HR-related inquiries."
         ],
         qualifications: [
-            "Bachelor’s degree or College level (Finance/Accounting background is a plus).",
-            "Proven work experience as a retail cashier or in a similar role.",
-            "Basic computer knowledge and familiarity with POS systems.",
-            "Strong math skills and attention to detail.",
-            "Honest, reliable, and able to work flexible shifts."
+            "With min. 1 yr experience in Human Resources.",
+            "Good communication skills (both verbal and written).",
+            "Computer Literate.",
+            "MS Office literate (Word, Excel, PDF, PPT)."
         ]
+
     },
     {
         id: 3,
@@ -259,6 +261,48 @@ const jobList = [
             "Strong attention to detail and a high degree of accuracy.",
             "Good leadership and team coordination abilities.",
             "CPA is a plus, but not required."
+        ]
+    },
+    {
+        id: 6,
+        title: "Company Driver",
+        location: "Calululut, CSFP and Manila",
+        type: "Full-Time",
+        description: "We are looking for a reliable Company Driver to operate vehicles for transporting employees and equipment safely and efficiently.",
+        responsibilities: [
+            "Transport employees and equipment to designated locations safely and on time.",
+            "Perform regular vehicle inspections and maintenance checks (oil, tires, water, brakes).",
+            "Plan routes to ensure the most efficient travel times.",
+            "Maintain a clean and professional appearance of the company vehicle.",
+            "Adhere to all traffic laws and company transport policies."
+        ],
+        qualifications: [
+            "Valid Professional Driver’s License (restriction codes 1, 2, or 3).",
+            "At least 2 years of driving experience in a professional setting.",
+            "Clean driving record with no history of major accidents.",
+            "Familiarity with Waze/Google Maps and routes in Pampanga and Manila.",
+            "High School Diploma or equivalent."
+        ]
+    },
+    {
+        id: 7,
+        title: "Cashier",
+        location: "City of San Fernando, Pampanga",
+        type: "Full-Time",
+        description: "We are seeking a trustworthy and detail-oriented Cashier to manage transactions and provide excellent customer service at our station.",
+        responsibilities: [
+            "Process cash, credit, and debit transactions accurately.",
+            "Maintain a balanced cash register at the start and end of shifts.",
+            "Issue receipts, refunds, and change to customers.",
+            "Resolve customer complaints or inquiries in a professional manner.",
+            "Generate daily transaction reports for management."
+        ],
+        qualifications: [
+            "Bachelor’s degree or College level (Finance/Accounting background is a plus).",
+            "Proven work experience as a retail cashier or in a similar role.",
+            "Basic computer knowledge and familiarity with POS systems.",
+            "Strong math skills and attention to detail.",
+            "Honest, reliable, and able to work flexible shifts."
         ]
     }
 ];
