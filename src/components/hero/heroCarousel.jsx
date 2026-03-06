@@ -27,13 +27,13 @@ const heroCarousel = () => {
                             <div
                                 className="md:h-96 lg:h-full">
                                 <video
-                                    src="/hero_video.mp4"
                                     autoPlay
-                                    loop
                                     muted
+                                    loop
                                     playsInline
                                     className="object-cover flex items-center justify-center h-56 w-full overflow-hidden rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
                                 >
+                                    <source src="/hero_video.mp4" type="video/mp4" />
                                 </video>
                             </div>
                         </div>
