@@ -26,9 +26,14 @@ const heroCarousel = () => {
                             </svg>
                             <div
                                 className="md:h-96 lg:h-full">
-                                <video src="/edited_drone_shot1.mp4"
-                                    autoPlay="{true}" loop muted
-                                    className="object-cover flex items-center justify-center h-56 w-full overflow-hidden rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full ">
+                                <video
+                                    src="/edited_drone_shot1.mp4"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                    className="object-cover flex items-center justify-center h-56 w-full overflow-hidden rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+                                >
                                 </video>
                             </div>
                         </div>
