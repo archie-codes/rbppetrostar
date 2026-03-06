@@ -27,7 +27,7 @@ const heroCarousel = () => {
                             <div
                                 className="md:h-96 lg:h-full">
                                 <video
-                                    src="/edited_drone_shot1.mp4"
+                                    src="/hero_video.mp4"
                                     autoPlay
                                     loop
                                     muted
