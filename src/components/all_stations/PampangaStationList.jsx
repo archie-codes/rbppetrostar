@@ -28,7 +28,7 @@ const PampangaStationList = () => {
                     <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5">
 
                         {/* Arenas, Porac Pampanga*/}
-                        {/* <div
+                        <div
                             className="group relative cursor-pointer overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-gray-900/5 transform transition-all duration-200 hover:scale-105 hover:-translate-y-1">
                             <span className="absolute top-2 left-2 z-0 h-14 w-14 rounded-full bg-red-500 transition-all duration-300 group-hover:scale-[15]">
                             </span>
@@ -78,7 +78,7 @@ const PampangaStationList = () => {
                             </div>
 
 
-                        </div> */}
+                        </div>
 
                         {/* Calulut, San Fernando, Pampanga */}
                         <div
